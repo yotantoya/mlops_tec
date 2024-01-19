@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.8' 
-      - name: install boto3
+      - name: install python dependencies 
         run: pip install -r ./src/train_serve/requirements.txt
       - name: Run deploy code
         run: python ./src/deploy.py
