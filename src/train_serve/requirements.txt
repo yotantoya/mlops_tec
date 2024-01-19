@@ -2,3 +2,4 @@ transformers @ git+https://github.com/abajorat/transformers@main
 pandas 
 scikit-learn
 joblib
+boto3
