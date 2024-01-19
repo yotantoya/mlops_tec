@@ -26,6 +26,6 @@ jobs:
         with:
           python-version: '3.8' 
       - name: install boto3
-        run: pip install boto3
+        run: pip install -r ./src/train_serve/requirements.txt
       - name: Run deploy code
-        run: python3 ./src/deploy.py
+        run: python ./src/deploy.py
