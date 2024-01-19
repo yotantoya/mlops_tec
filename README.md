@@ -1,2 +1,5 @@
 # mlops_tec
-mlops stuff for tecnologico de monterrey
+
+Simple script deploy on Sagemaker using sagemaker script mode,
+based on boston housing dataset.
+
