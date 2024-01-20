@@ -1,2 +1,2 @@
 def func_dummy():
-    return "hello"
+    return "hello from tec"
